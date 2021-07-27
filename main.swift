@@ -4,7 +4,6 @@
 //  Created by deathlezz on 10/05/2021.
 //
 
-
 var attempts = 0                    // attempts counter
 
 print("* Welcome to Password Generator *")
