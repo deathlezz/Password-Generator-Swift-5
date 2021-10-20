@@ -31,7 +31,6 @@ while attempts != 4 {
         let password = String(mergedCharacters)         // without "String" output will be like this: ["j", "M", "3", "5", "i", "@", "!", "X"]
         
         print("Password: \(password)")                  // final output
-        
         attempts = 0                                    // reseting attempts
 
     } else {
@@ -39,20 +38,17 @@ while attempts != 4 {
         if attempts == 2 {
             print()
             print("* Wrong key, \(3 - attempts) try left *")          // avoiding wrong key
-            
             attempts += 1                                             // adding attempts
             
         } else if attempts == 3 {
             print()
             print("* See you next time *")                            // program ending
             print()
-            
             attempts += 1                                             // adding attempts
             
         } else {
             print()
             print("* Wrong key, \(3 - attempts) tries left *")        // avoiding wrong key
-            
             attempts += 1                                             // adding attempts
         }
     }
